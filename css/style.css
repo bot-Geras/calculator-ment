@@ -66,3 +66,7 @@ button:active {
     align-items: center;
     gap: .4em;
 }
+
+[data-state="selected"] {
+    background: grey;
+}
