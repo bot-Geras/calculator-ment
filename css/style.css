@@ -67,6 +67,12 @@ button:active {
     gap: .4em;
 }
 
+[data-type="operator"]:active,
+[data-type="number"]:active,
+[data-type="clear"]:active {
+    background: grey;
+}
+
 [data-state="selected"] {
     background: grey;
 }
