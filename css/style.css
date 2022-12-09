@@ -10,11 +10,12 @@ body {
 
 body {
     height: 100vh;
+    font-family: 'Bebas Neue', cursive;
     display: flex;
 }
 
 .calculator-pocket {
-    height: 380px;
+    height: 450px;
     width: 350px;
     margin: auto;
     padding: 2px;
@@ -31,6 +32,7 @@ body {
 
 .display {
     background-color: #dcdbe1;
+    font-size: 3rem;
 border: solid black 0.5px;
 color: black;
 border-radius: 5px;
