@@ -13,7 +13,6 @@ body {
     font-family: 'Bebas Neue', cursive;
     display: flex;
 }
-
 .calculator-pocket {
     height: 450px;
     width: 350px;
@@ -29,36 +28,32 @@ body {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
 }
-
 .display {
     background-color: #dcdbe1;
     font-size: 3rem;
-border: solid black 0.5px;
-color: black;
-border-radius: 5px;
-width: 100%;
-height: 65%;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
 
 }
 
 button {
-
+    font-size: 1rem;
     padding: 20px 35px;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #64278f;
+    background-color: #083fa6;
     color: white;
     border: solid black 0.5px;
     outline: none;
     transition: 0.2s all;
 }
-
 button:active {
-    transform: scale(0.98);
-            /* Scaling button to 0.98 to its original size */
-            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    transform: scale(0.98);    
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
-
 .btn-value {
     display: flex;
     flex-flow: row wrap;
@@ -66,13 +61,11 @@ button:active {
     align-items: center;
     gap: .4em;
 }
-
 [data-type="operator"]:active,
 [data-type="number"]:active,
 [data-type="clear"]:active {
     background: grey;
 }
-
 [data-state="selected"] {
     background: grey;
 }
